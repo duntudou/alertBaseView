@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="XOw-gy-uzh">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纤云弄巧，飞星传恨，银汉迢迢暗度。金风玉露一相逢，便胜却、人间无数。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKS-uI-sW7">
+                    <rect key="frame" x="15" y="15" width="299" height="39"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd3-4t-5Fx">
+                    <rect key="frame" x="10" y="74" width="15" height="15"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.95462962959999997" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="dUk-f8-ZTe"/>
+                        <constraint firstAttribute="height" constant="15" id="iAq-wX-8Ny"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鹊桥仙" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rx-CA-Nig">
+                    <rect key="frame" x="30" y="68" width="66" height="27"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmq-yN-ZAc">
+                    <rect key="frame" x="0.0" y="110" width="329" height="60"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.95462962959999997" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="1rx-CA-Nig" firstAttribute="leading" secondItem="Nd3-4t-5Fx" secondAttribute="trailing" constant="5" id="3WB-ad-e56"/>
+                <constraint firstAttribute="trailing" secondItem="cKS-uI-sW7" secondAttribute="trailing" constant="15" id="3xU-oZ-u3h"/>
+                <constraint firstItem="Nd3-4t-5Fx" firstAttribute="leading" secondItem="XOw-gy-uzh" secondAttribute="leading" constant="10" id="5f8-So-wdT"/>
+                <constraint firstItem="Nd3-4t-5Fx" firstAttribute="top" secondItem="cKS-uI-sW7" secondAttribute="bottom" constant="20" id="OMY-v3-o7Q"/>
+                <constraint firstItem="vmq-yN-ZAc" firstAttribute="top" secondItem="1rx-CA-Nig" secondAttribute="bottom" constant="15" id="SIL-MI-miP"/>
+                <constraint firstAttribute="trailing" secondItem="vmq-yN-ZAc" secondAttribute="trailing" id="Sh6-Pp-LyO"/>
+                <constraint firstAttribute="bottom" secondItem="vmq-yN-ZAc" secondAttribute="bottom" id="cOt-8r-fVz"/>
+                <constraint firstItem="cKS-uI-sW7" firstAttribute="leading" secondItem="XOw-gy-uzh" secondAttribute="leading" constant="15" id="kDX-Xc-2rQ"/>
+                <constraint firstItem="cKS-uI-sW7" firstAttribute="top" secondItem="XOw-gy-uzh" secondAttribute="top" constant="15" id="oEb-fY-ehn"/>
+                <constraint firstItem="vmq-yN-ZAc" firstAttribute="leading" secondItem="XOw-gy-uzh" secondAttribute="leading" id="oxL-or-Yeq"/>
+                <constraint firstItem="1rx-CA-Nig" firstAttribute="centerY" secondItem="Nd3-4t-5Fx" secondAttribute="centerY" id="wTJ-wV-cqV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="405.5" y="167"/>
+        </view>
+    </objects>
+</document>
